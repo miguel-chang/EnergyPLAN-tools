@@ -1,0 +1,440 @@
+EP_indicator;source;source type;input vector/activity;activity type;output vector/activity;carrier/technology;carrier/technology type;attribute name
+summary;;;Electricity;Consumption;Electricity demand;;;Electr. Demand
+summary;;;Electricity;Consumption;Cooling;;;Elec.dem Cooling
+summary;;;Electricity;Trade;Electricity;;;Fixed Exp/Imp
+summary;;;District heating supply;Consumption;District heating demand;;;DH Demand
+summary;Onshore wind;VRES;RES;Primary energy supply;Electricity;Wind;Onshore wind;Wind Electr.
+summary;Offshore wind;VRES;RES;Primary energy supply;Electricity;Wind;Offshore wind;Offshore Electr.
+summary;PV;VRES;RES;Primary energy supply;Electricity;Solar;PV;PV Electr.
+summary;River hydro;VRES;RES;Primary energy supply;Electricity;Hydro;River hydro;River Electr.
+summary;Tidal;VRES;RES;Primary energy supply;Electricity;Marine;Tidal;Tidal Electr.
+summary;Wave;VRES;RES;Primary energy supply;Electricity;Marine;Wave;Wave Electr.
+summary;CSP;VRES;RES;Primary energy supply;Electricity;Solar;CSP;CSP Electr.
+summary;CSP;VRES;RES;Primary energy supply;Electricity;Solar;CSP;CSP2 Electr.
+summary;CSP;VRES;Electricity storage;Electricity storage;Electricity storage;Solar;CSP;CSP2 Storage
+summary;CSP;VRES;Electricity;Loss;Electricity;Solar;CSP;CSP2 loss
+summary;Hydro power;VRES;RES;Primary energy supply;Electricity;Hydro;Hydro power;Hydro Electr.
+summary;Hydro power;VRES;RES;Primary energy supply;Electricity;Hydro;Hydro power;Hydro pump
+summary;Hydro power;VRES;RES;Electricity storage;Electricity;Hydro;Hydro power;Hydro storage
+summary;Hydro power;VRES;RES;Hydro water supply;Hydro potential;Hydro;Hydro power;Hydro Wat-Sup
+summary;Hydro power;VRES;Hydro potential;Hydro water supply;Losses;Hydro;Hydro power;Hydro Wat-Loss
+summary;Solar thermal;VRES;RES;Primary energy supply;District heating supply;Solar;Solar thermal;Solar Heat
+summary;;;Industrial excess;Supply;District heating supply;Surplus heat;Industrial excess & geothermal heat;CSHP 1 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Waste;Waste incineration;Waste 1 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Boilers;Boilers;Boiler 1 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Solar;Solar thermal;Solar 1 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Thermal storage;District heating storage;Thermal storage;Solar thermal storage;Sol1 Str Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Surplus heat;Industrial excess & geothermal heat;CSHP 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Waste;Waste incineration;Waste 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Geothermal;Geothermal heating;Geoth 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Geothermal;Geothermal;Geoth 2 Steam
+summary;;;Heat and power (CHP, PP, Boilers);Thermal storage;District heating storage;Thermal storage;Solar thermal storage;Geoth 2 Storage
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Central power plants & DH;CHP plants;CHP 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Heat pumps;Heat pumps (DH);HP 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Boilers;Boilers;Boiler 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Electric heating;Electric heating;EH 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;;;ELT 2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Solar;Solar thermal;Solar2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Thermal storage;District heating storage;Thermal storage;Solar thermal storage;Sol2 Str Heat
+summary;;;Heat and power (CHP, PP, Boilers);Thermal storage;District heating storage;Thermal storage;DH thermal storage;Storage2 Heat
+summary;;;District heating supply;Balance;District heating demand;Balance;DH balance;Balance2 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Surplus heat;Industrial excess & geothermal heat;CSHP 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Waste;Waste incineration;Waste 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Geothermal;Geothermal heating;Geoth 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Geothermal;Geothermal;Geoth 3 Steam
+summary;;;Heat and power (CHP, PP, Boilers);Storage;District heating supply;Thermal storage;Solar thermal storage;Geoth 3 Storage
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Central power plants & DH;CHP plants;CHP 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Heat pumps;Heat pumps (DH);HP 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Boilers;Boilers;Boiler 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Electric heating;Electric heating;EH 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;;;ELT 3 Heat
+summary;;;Heat and power (CHP, PP, Boilers);Supply;District heating supply;Solar;Solar thermal;Solar3 Heat
+summary;;;;Thermal storage;;Thermal storage;Solar thermal storage;Sol3 Str Heat
+summary;;;;Thermal storage;;Thermal storage;DH thermal storage;Storage3 Heat
+summary;;;District heating supply;Balance;District heating demand;Balance;DH balance;Balance3 Heat
+summary;;;Electricity;Supply;Electricity demand;;;Flexible Electr.
+summary;;;Electricity;Consumption;District heating supply;Heat pumps;Heat pumps (DH);HP Electr.
+summary;;;Heat and power (CHP, PP, Boilers);Supply;Electricity;CHP plants;Industrial CHP;CSHP Electr.
+summary;;;Heat and power (CHP, PP, Boilers);Supply;Electricity;CHP plants;CHP plants (back-pressure);CHP Electr.
+summary;;;Heat and power (CHP, PP, Boilers);Supply;Electricity;Power plants;Condensing power plant;PP Electr.
+summary;;;Heat and power (CHP, PP, Boilers);Supply;Electricity;Power plants;Condensing power plant;PP2 Electr.
+summary;Nuclear;Nuclear;Nuclear;Supply;Electricity;Nuclear plants;Nuclear plants;Nuclear Electr.
+summary;Geothermal;Geothermal;RES;Supply;Electricity;Geothermal;Geothermal electricity;Geother. Electr.
+summary;;;Electricity;Consumption;Electricity storage;Electricity storage;Hydro pump;Pump Electr.
+summary;;;Electricity storage;Supply;Electricity;Electricity storage;Hydro turbine;Turbine Electr.
+summary;;;;Storage;Electricity storage;Electricity storage;Hydro pump/turbine;Pumped Storage
+summary;;;Electricity;Consumption;Electricity storage;Electricity storage;Hydro pump;Pump2 Electr.
+summary;;;Electricity storage;Supply;Electricity;Electricity storage;Hydro turbine;Turbine2 Electr.
+summary;;;;Electricity storage;Electricity storage;Hydro;Hydro pump/turbine;Pumped2 Storage
+summary;;;Electricity;Consumption;Electricity storage;Electricity storage;Rockbed storage;Rock in Electr.
+summary;;;Electricity storage;Supply;Electricity;Electricity storage;Rockbed storage;Rock out Steam
+summary;;;Electricity storage in;Electricity storage;Electricity storage out;Electricity storage;Rockbed storage;Rock str Storage
+summary;;;;Consumption;;;;ELT 2 Electr.
+summary;;;;Supply;;;;ELT 2 H2 ELT 2
+summary;;;;Consumption;;;;ELT 3 Electr.
+summary;;;;Supply;;;;ELT 3 H2 ELT 3
+summary;;;Electricity;Consumption;Transport;EVs;;V2G Demand
+summary;;;Electricity;Supply;Electricity storage;EVs;;V2G Charge
+summary;;;Electricity storage;Supply;Electricity;EVs;;V2G Discha.
+summary;;;;Electricity storage;Electricity storage;EVs;;V2G Storage
+summary;;;Electricity;Consumption;Electrolysers;;;Trans H2 Electr.
+summary;;;;Losses;;;;Trans H2 Electr.
+summary;;;;Fuel storage;;;;CO2Hydro Storage
+summary;;;;Supply;;;;NH3Hydro Electr.
+summary;;;;Supply;;;;CO2Hydro liq.fuel
+summary;;;;Supply;;;;NH3Hydro Ammonia
+summary;;;Individual supply;Supply;Electricity;Micro CHP;Micro CHP;HH-CHP Electr.
+summary;;;Electricity;Consumption;Individual supply;HP (indv. Heating);HP (indv. Heating);HH-HP Electr.
+summary;;;Electricity;Consumption;Individual supply;Electrict Heating;Electric heating;HH-HP/EB Electr.
+summary;;;Electricity;Consumption;Individual heating supply;;;HH-EB Electr.
+summary;;;Electricity;Consumption;Individual heating supply;;;HH-H2 Electr.
+summary;;;Fuel storage;Fuel storage;Fuel storage;Fuel storage;Hydrogen storage;HH-H2 Storage
+summary;;;;Price;;;;HH-H2 Prices
+summary;;;Individual heating supply;Consumption;Individual heating demand;;;HH Dem. Heat
+summary;;;Individual supply;Supply;Individual heating supply;;;HH CHP+HP Heat
+summary;;;Individual supply;Supply;Individual heating supply;;;HH Boil. Heat
+summary;;;RES;Primary energy supply;Individual heating supply;;;HH Solar Heat
+summary;;;Thermal storage;Thermal storage;Thermal storage;Thermal storage;Indv. Thermal storage;HH Store Heat
+summary;;;Individual supply;Balance;Individual heating demand;;;HH Balan Heat
+summary;;;Import;Electricity exchange;Electricity;;;Import Electr.
+summary;;;Electricity;Electricity exchange;Excess electricity;;;Export Electr.
+summary;;;Excess electricity;Electricity exchange;Critical excess electricity;;;CEEP Electr.
+summary;;;Excess electricity;Electricity exchange;Export;;;EEEP Electr.
+summary;;;;Price;;;;ExMarket Prices
+summary;;;;Supply;;;;ExMarket Prod
+summary;;;;Supply;;;;System Prices
+summary;;;;Supply;;;;InMarket Prices
+summary;;;;Supply;;;;Btl-neck Prices
+summary;;;;Supply;;;;Import Payment
+summary;;;;Supply;;;;Export Payment
+summary;;;;Supply;;;;Blt-neck Payment
+summary;;;;Supply;;;;Add-exp Payment
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;Boilers 
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;CHP2+3 
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;PP CAES
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;Indi- vidual
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;Transp. 
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas demands;Indust. Various
+summary;;;;Consumption;;Natural gas exchange;;Demand Sum
+summary;;;Biogas & biofuel conversion;Supply;Natural gas;Natural gas exchange;Natural gas supply;Biogas 
+summary;;;Biogas & biofuel conversion;Supply;Natural gas;Natural gas exchange;Natural gas supply;Syngas 
+summary;;;Biogas & biofuel conversion;Supply;Natural gas;Natural gas exchange;Natural gas supply;CO2HyGas 
+summary;;;Biogas & biofuel conversion;Supply;Natural gas;Natural gas exchange;Natural gas supply;SynHyGas 
+summary;;;Biogas & biofuel conversion;Supply;Natural gas;Natural gas exchange;Natural gas supply;SynFuel 
+summary;;;Gas storage;Fuel storage;Gas storage;Natural gas exchange;Natural gas storage;Storage 
+summary;;;Gas storage;Fuel storage;Gas storage;Natural gas exchange;Natural gas storage;Storage Content
+summary;;;;Supply;;Natural gas exchange;;Sum 
+summary;;;PES;Consumption;Natural gas;Natural gas exchange;Natural gas import;Import Gas
+summary;;;Biogas & biofuel conversion;Supply;PES;Natural gas exchange;Natural gas export;Export Gas
+summary;;;Desalination;Desalination volume;Fresh water;Desalination;Fresh water;FreshW Demand
+summary;;;Water & brine storage;Storage;Water & brine storage;Desalination;Fresh water storage;FreshW Storage
+summary;;;Salt water;Consumption;Desalination;Desalination;Salt water;SaltW Demand
+summary;;;Desalination;Supply;Brine;Desalination;Brine;Brine Prod.
+summary;;;Water & brine storage;Desalination volume;Water & brine storage;Desalination;Brine storage;Brine Storage
+summary;;;Electricity;Consumption;Desalination;Desalination;Desalination plant el. demand;Desal.Pl Electr.
+summary;;;Electricity;Consumption;Desalination;Desalination;Fresh water el. demand;FWPump Electr.
+summary;;;Desalination;Supply;Electricity;Desalination;Turbine;Turbine Electr.
+summary;;;Electricity;Consumption;Desalination;Desalinatin;Pump hydro (desalination);Pump Electr.
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Absorption cooling;CoolGr1 Demand
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Absorption cooling;CoolGr2 Demand
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Absorption cooling;CoolGr3 Demand
+summary;;;Cooling supply;Supply;Cooling demand;Cooling;Compression cooling;Cool-El Demand
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Natural cooling;CoolGr1 Natural
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Natural cooling;CoolGr2 Natural
+summary;;;Cooling supply;Supply;Cooling demand;District cooling;Natural cooling;CoolGr3 Natural
+summary;;;District heating supply;Consumption;Cooling supply;District cooling;Absorption cooling;Cooling DHgr1
+summary;;;District heating supply;Consumption;Cooling supply;District cooling;Absorption cooling;Cooling DHgr2
+summary;;;District heating supply;Consumption;Cooling supply;District cooling;Absorption cooling;Cooling DHgr3
+summary;;;Electricity;Consumption;Cooling supply;Cooling;Compresion cooling;Cooling Electr.
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;DHP;DHP - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;DHP;DHP - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;DHP;DHP - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;CHP2;CHP2 - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP2;CHP2 - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;CHP2;CHP2 - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;CHP3;CHP3 - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);CHP plants;CHP3;CHP3 - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;CHP3;CHP3 - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Boiler2;Boiler2 - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler2;Boiler2 - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Boiler2;Boiler2 - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Boiler3;Boiler3 - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);DH Boilers;Boiler3;Boiler3 - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Boiler3;Boiler3 - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;PP;PP - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;Heat and power (CHP, PP, Boilers);Condensing power plants;PP;PP - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;Geo/Nu.;Geo/Nu. - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;Geo/Nu.;Geo/Nu. - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;Geo/Nu.;Geo/Nu. - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;Geo/Nu.;Geo/Nu. - Biomass
+pes;Geothermal;Geothermal;RES;Primary energy supply;Electricity;Geothermal;Geothermal;Geo/Nu. - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;Geo/Nu.;Geo/Nu. - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;Geo/Nu.;Geo/Nu. - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;Electricity;Nuclear plants;Nuclear;Geo/Nu. - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;Hydro;Hydro - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;Hydro;Hydro - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;Hydro;Hydro - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;Hydro;Hydro - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Hydro;Hydro - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;Hydro;Hydro - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;Hydro;Hydro - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Hydro;Hydro - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;Waste;Waste - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;Waste;Waste - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;Waste;Waste - N.Gas
+pes;Waste;Biomass, biofuels & waste;RES;Primary energy supply;Heat and power (CHP, PP, Boilers);Waste incineration;Waste;Waste - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Waste;Waste - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;Waste;Waste - H2 etc.
+pes;Waste;Biomass, biofuels & waste;RES;Primary energy supply;Biofuels;Waste to biofuel;Waste;Waste - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Waste;Waste - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;CAES/ELT;CAES/ELT - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;CAES/ELT;CAES/ELT - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;CAES/ELT;CAES/ELT - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;CAES/ELT;CAES/ELT - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;CAES/ELT;CAES/ELT - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Biofuels;;CAES/ELT;CAES/ELT - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;CAES/ELT;CAES/ELT - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;CAES/ELT;CAES/ELT - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;BioCon;BioCon - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;BioCon;BioCon - Oil
+pes;N.Gas;Fossil fuel;RES;Primary energy supply;Fossil fuel;;BioCon;BioCon - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Biofuels;;BioCon;BioCon - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;BioCon;BioCon - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Biofuels;;BioCon;BioCon - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;Biofuels;Primary energy supply;Transport;;BioCon;BioCon - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;BioCon;BioCon - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;EFuel;EFuel - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;EFuel;EFuel - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;EFuel;EFuel - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;EFuel;EFuel - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;EFuel;EFuel - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Biofuels;;EFuel;EFuel - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Biofuels;;EFuel;EFuel - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;EFuel;EFuel - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;VRES;VRES - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;VRES;VRES - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;VRES;VRES - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;VRES;VRES - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;VRES;VRES - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;VRES;VRES - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;VRES;VRES - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;VRES;VRES - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;SolarTh;SolarTh - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;;;SolarTh;SolarTh - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;;;SolarTh;SolarTh - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;SolarTh;SolarTh - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;SolarTh;SolarTh - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;SolarTh;SolarTh - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;SolarTh;SolarTh - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;SolarTh;SolarTh - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;;;Transp.;Transp. - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Transport;;Transp.;Transp. - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Transport;;Transp.;Transp. - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;;;Transp.;Transp. - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Transp.;Transp. - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Transport;;Transp.;Transp. - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;Transport;;Transp.;Transp. - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Transp.;Transp. - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Individual supply;Indv. Boilers (incl. micro CHP);Househ;Househ - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Individual supply;Indv. Boilers (incl. micro CHP);Househ;Househ - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Individual supply;Indv. Boilers (incl. micro CHP);Househ;Househ - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Individual supply;Indv. Boilers (incl. micro CHP);Househ;Househ - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Househ;Househ - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;Individual supply;Indv. Boilers (incl. micro CHP);Househ;Househ - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;Househ;Househ - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Househ;Househ - Nucl/CCS
+pes;Coal;Fossil fuel;Fossil fuel;Primary energy supply;Industry ( & other);Industry ( & other);Ind/Var;Ind/Var - Coal
+pes;Oil;Fossil fuel;Fossil fuel;Primary energy supply;Industry ( & other);Industry ( & other);Ind/Var;Ind/Var - Oil
+pes;N.Gas;Fossil fuel;Fossil fuel;Primary energy supply;Industry ( & other);Industry ( & other);Ind/Var;Ind/Var - N.Gas
+pes;Biomass;Biomass, biofuels & waste;RES;Primary energy supply;Industry ( & other);Industry ( & other);Ind/Var;Ind/Var - Biomass
+pes;Renewable;VRES;RES;Primary energy supply;;;Ind/Var;Ind/Var - Renewable
+pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;Ind/Var;Ind/Var - H2 etc.
+pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;Ind/Var;Ind/Var - Biofuel
+pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Ind/Var;Ind/Var - Nucl/CCS
+co2;;;Fossil fuel;Emisisons;GHG emissions;CO2 emissions;CO2 emissions;CO2-emission (corrected)
+inv_cost;;;Renewable heat;Costs;annual investment;Renewable heat;;Solar thermal
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Small CHP units
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat pumps (DH);;Heat Pump gr. 2
+inv_cost;;;Heat and electricity;Costs;annual investment;Thermal storage;;Heat Storage CHP
+inv_cost;;;Heat and electricity;Costs;annual investment;Thermal storage;;Large CHP units
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Heat Pump gr. 3
+inv_cost;;;Heat and electricity;Costs;annual investment;Thermal storage;;Heat Storage Solar
+inv_cost;;;Heat and electricity;Costs;annual investment;Boilers (DH);;Boilers gr. 2 and 3
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Large Power Plants
+inv_cost;;;Renewable energy;Costs;annual investment;Wind;;Wind
+inv_cost;;;Renewable energy;Costs;annual investment;Wind;;Wind offshore
+inv_cost;;;Renewable energy;Costs;annual investment;Solar;;Photo Voltaic
+inv_cost;;;Renewable energy;Costs;annual investment;Marine;;Wave power
+inv_cost;;;Renewable energy;Costs;annual investment;Hydro;;River of hydro
+inv_cost;;;Renewable energy;Costs;annual investment;Hydro;;Hydro Power
+inv_cost;;;Renewable energy;Costs;annual investment;Hydro;;Hydro Storage
+inv_cost;;;Renewable energy;Costs;annual investment;Hydro;;Hydro Pump
+inv_cost;;;Renewable energy;Costs;annual investment;Nuclear plants;;Nuclear
+inv_cost;;;Renewable energy;Costs;annual investment;Geothermal;;Geothermal Electr.
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Electrolyser;;Electrolyser
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Liquid and gas storage;;Hydrogen Storage
+inv_cost;;;Heat and electricity;Costs;annual investment;Electricity storage;;Charge el1 storage
+inv_cost;;;Heat and electricity;Costs;annual investment;Electricity storage;;Discharge el1 storage
+inv_cost;;;Heat and electricity;Costs;annual investment;Electricity storage;;El1 storage cap
+inv_cost;;;Individual heat;Costs;annual investment;Boilers (Indv.);;Indv. boilers
+inv_cost;;;Individual heat;Costs;annual investment;Micro CHP (Indv.);;Indv. CHP
+inv_cost;;;Individual heat;Costs;annual investment;Heat pumps (Indv.);;Indv. Heat Pump
+inv_cost;;;Individual heat;Costs;annual investment;Boilers (Indv.);;Indv. Electric heat
+inv_cost;;;Individual heat;Costs;annual investment;Solar thermal (Indv.);;Indv. Solar thermal
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biogas;;BioGas Upgrade
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biogas;;Gasification Upgrade
+inv_cost;;;Heat and electricity;Costs;annual investment;Boilers (DH);;DHP Boiler group 1
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Waste CHP
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat pumps (DH);;Absorp. HP (Waste)
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;Biogas Plant
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;Gasification Plant
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;BioDiesel Plant
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;BioPetrol Plant
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;BioJPPlant
+inv_cost;;;Renewable energy;Costs;annual investment;Marine;;Tidal Power
+inv_cost;;;Renewable energy;Costs;annual investment;Solar;;CSP Solar Power
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;CCS;;Carbon Recycling
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;Methanation
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Biofuel conversion;;Liquidation + JP
+inv_cost;;;Desalination;Costs;annual investment;Desalination;;Desalination Plant
+inv_cost;;;Desalination;Costs;annual investment;Water storage;;Water storage
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Liquid and gas storage;;Gas Storage
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Liquid and gas storage;;Oil Storage
+inv_cost;;;Liquid and gas fuels;Costs;annual investment;Liquid and gas storage;;Methanol Storage
+inv_cost;;;Heat and electricity;Costs;annual investment;Interconnection;;Interconnection
+inv_cost;;;Renewable energy;Costs;annual investment;Geothermal;;Geothermal Heat
+inv_cost;;;Renewable energy;Costs;annual investment;Excess heat;;Indust. Excess Heat
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Indust. CHP Electr.
+inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Indust. CHP Heat
+inv_cost;;;Heat and electricity;Costs;annual investment;Boilers (DH);;Electr Boiler Gr 2+3
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Bicycles
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Motorbikes
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Electric Cars
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Conventional Cars
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;DME Buses
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Diesel Buses
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;DME Trucks
+inv_cost;;;Road Vehicles;Costs;annual investment;Transport;;Diesel Trucks
+inv_cost;;;Heat and electricity;Costs;annual investment;Electricity storage;;El1 storage cap
+inv_cost;;;Renewable heat;Costs;fixed OM;Renewable heat;;Solar thermal
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Small CHP units
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat pumps (DH);;Heat Pump gr. 2
+inv_cost;;;Heat and electricity;Costs;fixed OM;Thermal storage;;Heat Storage CHP
+inv_cost;;;Heat and electricity;Costs;fixed OM;Thermal storage;;Large CHP units
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Heat Pump gr. 3
+inv_cost;;;Heat and electricity;Costs;fixed OM;Thermal storage;;Heat Storage Solar
+inv_cost;;;Heat and electricity;Costs;fixed OM;Boilers (DH);;Boilers gr. 2 and 3
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Large Power Plants
+inv_cost;;;Renewable energy;Costs;fixed OM;Wind;;Wind
+inv_cost;;;Renewable energy;Costs;fixed OM;Wind;;Wind offshore
+inv_cost;;;Renewable energy;Costs;fixed OM;Solar;;Photo Voltaic
+inv_cost;;;Renewable energy;Costs;fixed OM;Marine;;Wave power
+inv_cost;;;Renewable energy;Costs;fixed OM;Hydro;;River of hydro
+inv_cost;;;Renewable energy;Costs;fixed OM;Hydro;;Hydro Power
+inv_cost;;;Renewable energy;Costs;fixed OM;Hydro;;Hydro Storage
+inv_cost;;;Renewable energy;Costs;fixed OM;Hydro;;Hydro Pump
+inv_cost;;;Renewable energy;Costs;fixed OM;Nuclear plants;;Nuclear
+inv_cost;;;Renewable energy;Costs;fixed OM;Geothermal;;Geothermal Electr.
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Electrolyser;;Electrolyser
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Liquid and gas storage;;Hydrogen Storage
+inv_cost;;;Heat and electricity;Costs;fixed OM;Electricity storage;;Charge el1 storage
+inv_cost;;;Heat and electricity;Costs;fixed OM;Electricity storage;;Discharge el1 storage
+inv_cost;;;Heat and electricity;Costs;fixed OM;Electricity storage;;El1 storage cap
+inv_cost;;;Individual heat;Costs;fixed OM;Boilers (Indv.);;Indv. boilers
+inv_cost;;;Individual heat;Costs;fixed OM;Micro CHP (Indv.);;Indv. CHP
+inv_cost;;;Individual heat;Costs;fixed OM;Heat pumps (Indv.);;Indv. Heat Pump
+inv_cost;;;Individual heat;Costs;fixed OM;Boilers (Indv.);;Indv. Electric heat
+inv_cost;;;Individual heat;Costs;fixed OM;Solar thermal (Indv.);;Indv. Solar thermal
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biogas;;BioGas Upgrade
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biogas;;Gasification Upgrade
+inv_cost;;;Heat and electricity;Costs;fixed OM;Boilers (DH);;DHP Boiler group 1
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Waste CHP
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat pumps (DH);;Absorp. HP (Waste)
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;Biogas Plant
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;Gasification Plant
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;BioDiesel Plant
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;BioPetrol Plant
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;BioJPPlant
+inv_cost;;;Renewable energy;Costs;fixed OM;Marine;;Tidal Power
+inv_cost;;;Renewable energy;Costs;fixed OM;Solar;;CSP Solar Power
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;CCS;;Carbon Recycling
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;Methanation
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Biofuel conversion;;Liquidation + JP
+inv_cost;;;Desalination;Costs;fixed OM;Desalination;;Desalination Plant
+inv_cost;;;Desalination;Costs;fixed OM;Water storage;;Water storage
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Liquid and gas storage;;Gas Storage
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Liquid and gas storage;;Oil Storage
+inv_cost;;;Liquid and gas fuels;Costs;fixed OM;Liquid and gas storage;;Methanol Storage
+inv_cost;;;Heat and electricity;Costs;fixed OM;Interconnection;;Interconnection
+inv_cost;;;Renewable energy;Costs;fixed OM;Geothermal;;Geothermal Heat
+inv_cost;;;Renewable energy;Costs;fixed OM;Excess heat;;Indust. Excess Heat
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Indust. CHP Electr.
+inv_cost;;;Heat and electricity;Costs;fixed OM;Heat and power (CHP & PP);;Indust. CHP Heat
+inv_cost;;;Heat and electricity;Costs;fixed OM;Boilers (DH);;Electr Boiler Gr 2+3
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Bicycles
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Motorbikes
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Electric Cars
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Conventional Cars
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;DME Buses
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Diesel Buses
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;DME Trucks
+inv_cost;;;Road Vehicles;Costs;fixed OM;Transport;;Diesel Trucks
+inv_cost;;;Heat and electricity;Costs;fixed OM;Electricity storage;;El1 storage cap
+add_cost;;;;Costs;annual investment;;;Heat savings cost
+add_cost;;;;Costs;annual investment;;;DH grid
+add_cost;;;;Costs;annual investment;;;CO2 Underground storage
+add_cost;;;;Costs;annual investment;;;Power Grid
+add_cost;;;;Costs;annual investment;;;Industry savings
+add_cost;;;;Costs;annual investment;;;Transport
+add_cost;;;;Costs;fixed OM;;;Heat savings cost
+add_cost;;;;Costs;fixed OM;;;DH grid
+add_cost;;;;Costs;fixed OM;;;CO2 Underground storage
+add_cost;;;;Costs;fixed OM;;;Power Grid
+add_cost;;;;Costs;fixed OM;;;Industry savings
+add_cost;;;;Costs;fixed OM;;;Transport
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Coal
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;FuelOil
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Gasoil/Diesel
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Petrol/JP
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Gas handling
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Biomass
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Food income
+var_cost;;;;Costs;variable cost;Fuel excl. natural gas exchange;;Waste
+var_cost;;;;Costs;variable cost;Ngas Exchange costs;;Ngas Exchange costs
+var_cost;;;;Costs;variable cost;Marginal operation costs;;Marginal operation costs
+var_cost;;;;Costs;variable cost;Electricity exchange;;Import
+var_cost;;;;Costs;variable cost;Electricity exchange;;Export
+var_cost;;;;Costs;variable cost;Electricity exchange;;Bottleneck
+var_cost;;;;Costs;variable cost;Electricity exchange;;Fixed imp/exp
+var_cost;;;;Costs;variable cost;CO2 costs;;CO2 emission costs
