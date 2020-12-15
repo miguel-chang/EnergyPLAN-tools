@@ -93,7 +93,7 @@ summary;;;;Price;;;;HH-H2 Prices
 summary;;;Individual heating supply;Consumption;Individual heating demand;;;HH Dem. Heat
 summary;;;Individual supply;Supply;Individual heating supply;;;HH CHP+HP Heat
 summary;;;Individual supply;Supply;Individual heating supply;;;HH Boil. Heat
-summary;;;RES;Primary energy supply;Individual heating supply;;;HH Solar Heat
+summary;Solar thermal;VRES;RES;Primary energy supply;Individual heating supply;;;HH Solar Heat
 summary;;;Thermal storage;Thermal storage;Thermal storage;Thermal storage;Indv. Thermal storage;HH Store Heat
 summary;;;Individual supply;Balance;Individual heating demand;;;HH Balan Heat
 summary;;;Import;Electricity exchange;Electricity;;;Import Electr.
