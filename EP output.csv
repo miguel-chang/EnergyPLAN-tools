@@ -1,4 +1,4 @@
-EP_indicator;source;source type;input vector/activity;activity type;output vector/activity;carrier/technology;carrier/technology type;attribute name
+EP_ind;source;source type;input vector/activity;activity type;output vector/activity;carrier/technology;carrier/technology type;attribute name
 summary;;;Electricity;Consumption;Electricity demand;;;Electr. Demand
 summary;;;Electricity;Consumption;Cooling;;;Elec.dem Cooling
 summary;;;Electricity;Trade;Electricity;;;Fixed Exp/Imp
