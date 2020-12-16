@@ -133,7 +133,7 @@ summary;;;Desalination;Supply;Brine;Desalination;Brine;Brine Prod.
 summary;;;Water & brine storage;Desalination volume;Water & brine storage;Desalination;Brine storage;Brine Storage
 summary;;;Electricity supply;Consumption;Electricity consumption;Desalination;Desalination plant el. demand;Desal.Pl Electr.
 summary;;;Electricity supply;Consumption;Electricity consumption;Desalination;Fresh water el. demand;FWPump Electr.
-summary;;;Desalination;Supply;Electricity supply;Desalination;Turbine;Turbine Electr.
+summary;;;Hydro;Supply;Electricity supply;Desalination;Turbine;Turbine Electr.
 summary;;;Electricity supply;Consumption;Electricity consumption;Desalination;Pump hydro (desalination);Pump Electr.
 summary;;;Cooling supply;Supply;Cooling demand;District cooling;Absorption cooling;CoolGr1 Demand
 summary;;;Cooling supply;Supply;Cooling demand;District cooling;Absorption cooling;CoolGr2 Demand
