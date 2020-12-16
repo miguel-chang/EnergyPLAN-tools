@@ -282,7 +282,7 @@ pes;Renewable;VRES;RES;Primary energy supply;;;Ind/Var;Ind/Var - Renewable
 pes;H2 etc.;Hydrogen;RES;Primary energy supply;;;Ind/Var;Ind/Var - H2 etc.
 pes;Biofuel;Biomass, biofuels & waste;RES;Primary energy supply;;;Ind/Var;Ind/Var - Biofuel
 pes;Nucl/CCS;Nuclear;Nuclear;Primary energy supply;;;Ind/Var;Ind/Var - Nucl/CCS
-co2;;;Fossil fuel;Emisisons;GHG emissions;CO2 emissions;CO2 emissions;CO2-emission (corrected)
+co2;;;Fossil fuel;Emissions;GHG emissions;CO2 emissions;CO2 emissions;CO2-emission (corrected)
 inv_cost;;;Renewable heat;Costs;annual investment;Solar thermal;;Solar thermal
 inv_cost;;;Heat and electricity;Costs;annual investment;Heat and power (CHP & PP);;Small CHP units
 inv_cost;;;Heat and electricity;Costs;annual investment;Heat pumps (DH);;Heat Pump gr. 2
