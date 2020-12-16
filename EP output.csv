@@ -84,9 +84,9 @@ summary;;;;Supply;;;;NH3Hydro Electr.
 summary;;;;Supply;;;;CO2Hydro liq.fuel
 summary;;;;Supply;;;;NH3Hydro Ammonia
 summary;;;Individual supply;Supply;Electricity supply;Micro CHP;Micro CHP;HH-CHP Electr.
-summary;;;Electricity;Consumption;Individual supply;HP (indv. Heating);HP (indv. Heating);HH-HP Electr.
-summary;;;Electricity;Consumption;Individual supply;Electrict Heating;Electric heating;HH-HP/EB Electr.
-summary;;;Electricity;Consumption;Individual heating supply;;;HH-EB Electr.
+summary;;;Electricity supply;Consumption;Electricity consumption;HP (indv. Heating);HP (indv. Heating);HH-HP Electr.
+summary;;;Electricity supply;Consumption;Electricity consumption;Electrict Heating;Electric heating;HH-HP/EB Electr.
+summary;;;Electricity supply;Consumption;Electricity consumption;;;HH-EB Electr.
 summary;;;Electricity;Consumption;Individual heating supply;;;HH-H2 Electr.
 summary;;;Fuel storage;Fuel storage;Fuel storage;Fuel storage;Hydrogen storage;HH-H2 Storage
 summary;;;;Price;;;;HH-H2 Prices
