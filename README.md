@@ -1,7 +1,7 @@
 # EnergyPLAN tools
 
 This repository contains supplementary tools used with the EnergyPLAN modelling software (www.energyplan.eu).
-This consist of Julia scripts that automate common tasks and operations handling EnergyPLAN's inputs and outputs textfile. This code is partially adapted from  previous Python scripts first presented by Garegani et al. and Prina et al. in the reference listed below. 
+This consist of Julia scripts that automate common tasks and operations handling EnergyPLAN's input and output textfiles. This code is partially adapted from  previous Python scripts first presented by Garegani et al. and Prina et al. in the references listed below. 
 
 * G. Garegnani, M.G. Prina, R. Vaccaro, M. Cozzini, U. Filippi Oberegger, D. Moser. EPLANopt: EnergyPLAN optimization library (2016) https://gitlab.inf.unibz.it/URS/EPLANopt
 
